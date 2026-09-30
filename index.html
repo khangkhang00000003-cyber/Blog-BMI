@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SPORTHUB DAILY – tin thể thao, kiến thức, hướng dẫn, xu hướng sportswear và lifestyle.">
+  <meta name="theme-color" content="#e31b32">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <title>SPORTHUB DAILY — Thể thao, kiến thức & lifestyle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+  <div class="reading-progress" id="readingProgress"></div>
+  <div id="siteHeader"></div>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-main reveal">
+        <article class="hero-card">
+          <div class="hero-media" style="--img:url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1600&q=85')">
+            <div class="hero-overlay"></div>
+            <div class="hero-copy">
+              <span class="eyebrow">CHẠY BỘ</span>
+              <h1>Cách chọn giày chạy bộ phù hợp theo từng mục đích</h1>
+              <p>Kiểu chạy, độ đệm, độ bám, size và cảm giác khi thử — những tiêu chí quan trọng để chọn đúng đôi giày cho bạn.</p>
+              <a class="btn btn-light" href="article.html?slug=chon-giay-chay-bo">Đọc bài <span>↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="hero-side">
+        <article class="story-card reveal delay-1" data-article="giay-running-vs-training">
+          <div class="story-media" style="--img:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=85')"></div>
+          <div class="story-body"><span class="tag">HƯỚNG DẪN</span><h2>Giày running và training khác nhau thế nào?</h2><p>Hiểu đúng nhu cầu trước khi xuống tiền.</p></div>
+        </article>
+        <article class="story-card reveal delay-2" data-article="zone-2-la-gi">
+          <div class="story-media" style="--img:url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=900&q=85')"></div>
+          <div class="story-body"><span class="tag">KIẾN THỨC</span><h2>Zone 2 là gì và vì sao người mới chạy nên quan tâm?</h2><p>Một khái niệm đơn giản để luyện bền hơn.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <div class="section-head"><div><span class="eyebrow dark">MỚI NHẤT</span><h2>Điểm tin & bài viết mới</h2></div><a class="text-link" href="category.html?cat=all">Xem tất cả <span>→</span></a></div>
+      <div class="latest-grid" id="latestGrid"></div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container reveal">
+        <div class="section-head"><div><span class="eyebrow dark">KHÁM PHÁ</span><h2>Chọn một chủ đề</h2></div></div>
+        <div class="topic-grid">
+          <a class="topic-card topic-red" href="category.html?cat=chay-bo"><span>01</span><strong>Chạy bộ</strong><small>Running / marathon / gear</small><i>↗</i></a>
+          <a class="topic-card" href="category.html?cat=gym-fitness"><span>02</span><strong>Gym & Fitness</strong><small>Training / routine / lifestyle</small><i>↗</i></a>
+          <a class="topic-card" href="category.html?cat=bong-da"><span>03</span><strong>Bóng đá</strong><small>Boots / culture / stories</small><i>↗</i></a>
+          <a class="topic-card" href="category.html?cat=sports-fashion"><span>04</span><strong>Sports Fashion</strong><small>Outfit / sneaker / trend</small><i>↗</i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <div class="section-head"><div><span class="eyebrow dark">SPORTHUB PICKS</span><h2>Đọc xong, khám phá tiếp</h2></div><a class="btn btn-dark" href="https://tranthiquynhnhu0901-hue.github.io/shopthethao/" target="_blank" rel="noreferrer">Vào SPORTHUB Shop <span>↗</span></a></div>
+      <div class="commerce-panel">
+        <div class="commerce-copy"><div class="commerce-kicker">READ → DISCOVER → MOVE</div><h3>Nội dung giúp bạn hiểu nhu cầu. SPORTHUB giúp bạn tìm sản phẩm phù hợp.</h3><p>Khám phá giày, sportswear và phụ kiện theo từng mục đích vận động.</p><a class="btn btn-red" href="https://tranthiquynhnhu0901-hue.github.io/shopthethao/" target="_blank" rel="noreferrer">Khám phá cửa hàng <span>↗</span></a></div>
+        <div class="commerce-orb"><div class="orb-ring"></div><div class="orb-text">SPORT<br>HUB</div></div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container reveal">
+        <div class="newsletter"><div><span class="eyebrow light">SPORTHUB INSIDER</span><h2>Mỗi tuần một ít cảm hứng để vận động tốt hơn.</h2><p>Nhận bài viết mới, guide và xu hướng sportswear.</p></div><form id="newsletterForm" class="newsletter-form"><input id="newsletterEmail" type="email" placeholder="Email của bạn" required><button class="btn btn-red" type="submit">Đăng ký <span>→</span></button><small id="newsletterMsg"></small></form></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+  <div id="searchModal" class="search-modal" aria-hidden="true"></div>
+  <button class="to-top" id="toTop" aria-label="Lên đầu trang">↑</button>
+  <div class="mobile-shopbar"><span>Đọc xong? Khám phá sản phẩm tại SPORTHUB.</span><a href="https://tranthiquynhnhu0901-hue.github.io/shopthethao/" target="_blank" rel="noreferrer">Shop ↗</a></div>
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
